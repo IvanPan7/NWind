@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:NWindApp"
+             x:Class="NWindApp.MainPage"
+             xmlns:vm="clr-namespace:NWindApp.ViewModels">
+    <ContentPage.BindingContext>
+        <vm:Product/>
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Margin="10">Categoria:</Label>
+                <Entry WidthRequest="50" Text="{Binding CategoryID}"/>
+                <Button Text="Buscar" Margin="10"
+                        Command="{Binding SearchProductsCommand}"/>
+                <Button Text="Ver Detalle" Margin="10" WidthRequest="100"
+                        Command="{Binding SearchProductByIDCommand}"/>
+            </StackLayout>
+            <ListView   ItemsSource="{Binding Path=Products}"
+                        SelectedItem="{Binding ProductSelected}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition Width="5*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0"
+                                        Text="{Binding ProductID}"/>
+                                    <Label Grid.Column="1"
+                                        Text="{Binding ProductName}"/>
+                                    <Label Grid.Column="2"
+                                        Text="{Binding CategoryID}"/>
+                                    <Label Grid.Column="3"
+                                        Text="{Binding UnitPrice}"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+        <StackLayout Margin="30,0,0,0">
+            <Label>Detalle del Producto</Label>
+            <StackLayout Orientation="Horizontal">
+                <Label>ID:</Label>
+                <Label Text="{Binding ProductID}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label>Nombre:</Label>
+                <Label Text="{Binding ProductName}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label>Precio:</Label>
+                <Label Text="{Binding UnitPrice}"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

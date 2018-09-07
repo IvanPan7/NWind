@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NWindApp.CUD"
+             xmlns:vm="clr-namespace:NWindApp.ViewModels">
+    <ContentPage.BindingContext>
+        <vm:CUD/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Margin="10" >
+            <Label >Producto nuevo</Label>
+            <StackLayout Orientation="Horizontal">
+                <Label>ID:</Label>
+                <Entry Text="{Binding ProductID}"
+ WidthRequest="100"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label>Nombre:</Label>
+                <Entry Text="{Binding ProductName}
+                    WidthRequest="100"/>
+            </StackLayout>
+ <StackLayout Orientation="Horizontal">
+ <Label>ID de Categoria:</Label>
+ <Entry Text="{Binding CategoryID}"
+ WidthRequest="100"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label>Stock:</Label>
+                <Entry Text="{Binding UnitsInStock}"
+ WidthRequest="100"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label>Precio:</Label>
+                <Entry Text="{Binding UnitPrice}"
+ WidthRequest="100"/>
+            </StackLayout>
+            <Button Text="Crear Producto"
+ Command="{Binding CreateProductCommand}"/>
+            <Button Text="Actualizar Producto"
+ Command="{Binding UpdateProductCommand}"/>
+            <Button Text="Eliminar Producto"
+ Command="{Binding DeleteProductCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
