@@ -424,11 +424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Demos\\NWind\\NWindApp\\NWindApp\\NWindApp.csproj",
+      "projectUniqueName": "C:\\ip7\\NWind\\NWindApp\\NWindApp\\NWindApp.csproj",
       "projectName": "NWindApp",
-      "projectPath": "C:\\Demos\\NWind\\NWindApp\\NWindApp\\NWindApp.csproj",
+      "projectPath": "C:\\ip7\\NWind\\NWindApp\\NWindApp\\NWindApp.csproj",
       "packagesPath": "C:\\Users\\CDS1UNIVO6\\.nuget\\packages\\",
-      "outputPath": "C:\\Demos\\NWind\\NWindApp\\NWindApp\\obj\\",
+      "outputPath": "C:\\ip7\\NWind\\NWindApp\\NWindApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -447,11 +447,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Demos\\NWind\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Demos\\NWind\\Entities\\Entities.csproj"
+            "C:\\ip7\\NWind\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\ip7\\NWind\\Entities\\Entities.csproj"
             },
-            "C:\\Demos\\NWind\\NWindProxyService\\NWindProxyService.csproj": {
-              "projectPath": "C:\\Demos\\NWind\\NWindProxyService\\NWindProxyService.csproj"
+            "C:\\ip7\\NWind\\NWindProxyService\\NWindProxyService.csproj": {
+              "projectPath": "C:\\ip7\\NWind\\NWindProxyService\\NWindProxyService.csproj"
             }
           }
         }

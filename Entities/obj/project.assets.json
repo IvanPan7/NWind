@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Demos\\NWind\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\ip7\\NWind\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Demos\\NWind\\Entities\\Entities.csproj",
+      "projectPath": "C:\\ip7\\NWind\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\CDS1UNIVO6\\.nuget\\packages\\",
-      "outputPath": "C:\\Demos\\NWind\\Entities\\obj\\",
+      "outputPath": "C:\\ip7\\NWind\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

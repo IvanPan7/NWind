@@ -902,11 +902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Demos\\NWind\\NWindApp\\NWindApp.iOS\\NWindApp.iOS.csproj",
+      "projectUniqueName": "C:\\ip7\\NWind\\NWindApp\\NWindApp.iOS\\NWindApp.iOS.csproj",
       "projectName": "NWindApp.iOS",
-      "projectPath": "C:\\Demos\\NWind\\NWindApp\\NWindApp.iOS\\NWindApp.iOS.csproj",
+      "projectPath": "C:\\ip7\\NWind\\NWindApp\\NWindApp.iOS\\NWindApp.iOS.csproj",
       "packagesPath": "C:\\Users\\CDS1UNIVO6\\.nuget\\packages\\",
-      "outputPath": "C:\\Demos\\NWind\\NWindApp\\NWindApp.iOS\\obj\\",
+      "outputPath": "C:\\ip7\\NWind\\NWindApp\\NWindApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -923,8 +923,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Demos\\NWind\\NWindApp\\NWindApp\\NWindApp.csproj": {
-              "projectPath": "C:\\Demos\\NWind\\NWindApp\\NWindApp\\NWindApp.csproj"
+            "C:\\ip7\\NWind\\NWindApp\\NWindApp\\NWindApp.csproj": {
+              "projectPath": "C:\\ip7\\NWind\\NWindApp\\NWindApp\\NWindApp.csproj"
             }
           }
         }
