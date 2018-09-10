@@ -12,7 +12,7 @@ namespace NWindProxyService
     // HTTPClient,esta y paquete Newtosoft.Json.
     public class Proxy
     {
-        string BaseAddress = "http://localhost:52546";
+        string BaseAddress = "http://192.168.60.162:52546";
 
         public async Task<T> SendPost<T, PostData>
             (string requestURI, PostData data)

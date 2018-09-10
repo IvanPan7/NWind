@@ -16,7 +16,7 @@
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label>Nombre:</Label>
-                <Entry Text="{Binding ProductName}
+                <Entry Text="{Binding ProductName}"
                     WidthRequest="100"/>
             </StackLayout>
  <StackLayout Orientation="Horizontal">

@@ -70,7 +70,9 @@ namespace DAL
             {
                 Result = Context.Set<TEntity>().FirstOrDefault(criteria);
             }
-            catch {}
+            catch(Exception ex) {
+                throw ex;
+            }
             return Result;
         }
 

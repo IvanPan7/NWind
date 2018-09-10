@@ -1,0 +1,9 @@
+C:\Demos\NWind\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Demos\NWind\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Demos\NWind\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Demos\NWind\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Demos\NWind\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Demos\NWind\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Demos\NWind\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Demos\NWind\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Demos\NWind\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache

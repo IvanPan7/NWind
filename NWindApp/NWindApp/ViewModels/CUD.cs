@@ -93,9 +93,9 @@ namespace NWindApp.ViewModels
                 }
             }
         }
-        private decimal UnitsInStock_BF;
+        private short UnitsInStock_BF;
 
-        public decimal UnitsInStock
+        public short UnitsInStock
         {
             get { return UnitsInStock_BF; }
             set
